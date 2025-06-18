@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Show Answer Clicker",
+  "version": "1.0",
+  "description": "Clicks all 'Show Answer' buttons on the current page",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Click to reveal all answers",
+    "default_icon": {
+      "16": "icon16.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png"
+  }
+}
